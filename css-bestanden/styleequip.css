@@ -1,0 +1,149 @@
+/* Generale Stijlen */
+    body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #21a7d4, #75009a);
+}
+
+html {
+  text-align: center;
+} 
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #412227;
+}
+
+img {
+  transition: transform 0.5s;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+img:hover {
+  transform: rotate(1deg) scale(1.001);
+}
+
+/* Sectie Stijlen */
+section {
+  padding: 40px 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  font-size: 32px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;  
+}
+
+p {
+  line-height: 1.5;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: -0.5%;
+}
+
+/* Header */
+head {
+  background: #000e3d;
+  padding: 20px;
+  color: #fff;
+}
+
+
+header {
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+  align-items: center;
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header a {
+  color: #fff;
+  margin-left: 20px;
+}  
+
+nav li {
+  padding: 0px;
+  display: flex;
+  margin-left: 40%;
+  font-family: Arial;
+  list-style-type: none;
+  margin-top: -1%;
+  position: fixed;
+  background: rgba(037, 069, 135, 0.9);
+}
+
+nav a {
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+ul {
+  text-align: left;
+  margin-top: -25px;
+  margin-left: -10px;
+}
+
+ol {
+  text-align: left;
+  margin-top: -25px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+li {
+  margin-left: 550px;
+  margin-bottom: 10px 0;
+  color: #fff
+}
+
+h1 {
+  text-align: center;
+  margin-right: 225px;
+  color: #fff;
+  font-size: 36px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 307px;
+  margin-left: 42%;
+  padding: 0 20px;
+  background: rgba(255,255,255,0.2);
+}
+
+div {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+tr {
+  padding: 20px;
+  font-size: 117%;
+}
+
+th {
+color: #fff;
+}
+
+.table {
+  margin-left: 40%;
+  max-width: 17%;
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+}
